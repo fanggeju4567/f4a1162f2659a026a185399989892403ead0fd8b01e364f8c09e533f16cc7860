@@ -2,8 +2,9 @@ name: fanggeju4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 4/6 * * *'
-jobs:  # 6939
+    - cron: '2 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,9 +12,14 @@ jobs:  # 6939
       - uses: actions/checkout@v4
       - name: fanggeju4567
         env:
-          ytzuc73: ${{ secrets.ytzuc73 }}
+          f7127: ${{ secrets.f7127 }}
         run: |
-          echo $ytzuc73 | jq -r .e4 | /bin/bash
-          echo $ivqs98 | jq -r .xa54375 | /bin/bash
-          echo $fu61 | jq -r .jmcdj222 | /bin/bash
+          echo $f7127 | jq -r .jlmke5194 | /bin/bash
+          echo $btiee47 | jq -r .ak19 | /bin/bash
+          echo $a6 | jq -r .z5 | /bin/bash
+          echo $jvxv132 | jq -r .pn5315 | /bin/bash
+          echo $w43563 | jq -r .ndryj73 | /bin/bash
+          echo $yupi188 | jq -r .pt5 | /bin/bash
+          echo $u811 | jq -r .bv1 | /bin/bash
+          echo $eeq9 | jq -r .wt9 | /bin/bash
 
